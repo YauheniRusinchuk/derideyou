@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css?family=Mina');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Mina', sans-serif;
+  box-sizing: border-box;
+}
+
+.background_img_login {
+  width: 100%;
+  height: 100vh;
+  background-image: url('bg1.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.preload_loading {
+  text-align: center;
+  margin: 100px auto;
+  font-weight: bold;
+}
+
+
+.home {
+  width: 90%;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.changename {
+  text-align: center;
+  margin-top: 50px;
+
+}
+
+.changename h3 {
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.changename .changetext {
+  width: 200px;
+  border: none;
+  border-bottom: 2px solid black;
+  outline: none;
+  padding: 3px 10px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.changename .btn_change {
+  border: 2px solid #65ace5;
+  background-color: #65ace5;
+  border-radius: 20px;
+  padding: 1px 20px;
+  margin: 20px;
+  text-decoration: none;
+  color: white;
+  box-shadow: 0 0 20px grey;
+  font-weight: bold;
+  font-size: 12px;
+  outline: none;
+  text-transform: uppercase;
+}
+
+.you_can {
+  margin-top: 40px;
+  color: grey;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+
+.btn_logout  button {
+  position: fixed;
+  top: 10px;
+  left: 20px;
+  border: none;
+  background-color: #65ace5;
+  color: white;
+  font-size: 10px;
+  font-weight: bold;
+  border-radius: 20px;
+  padding: 3px 20px;
+  box-shadow: 0 0 10px grey;
+  outline: none;
+}
+
+.btn_logout button:hover {
+  cursor: pointer;
+}
+
+
+.btn_change_username {
+  position: fixed;
+  top: 10px;
+  right: 20px;
+  border: 1px solid #65ace5;
+  background-color: #65ace5;
+  color: white;
+  padding: 5px 20px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-size: 10px;
+  font-weight: bold;
+  box-shadow: 0 0 10px grey;
+  outline: none;
+}
+
+.login_container {
+  /* width: 90%; */
+  text-align: center;
+  border-radius: 3px;
+  /* background-color: #3b3b3b; */
+  padding: 10px;
+  /* box-shadow: 0 0 40px white; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 1;
+}
+
+.login_container label {
+  font-size: 12px;
+  font-weight: bold;
+  color: white;
+}
+
+
+.login_container h3 {
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  color: white;
+}
+
+.login .input_type {
+  width: 300px;
+  border: none;
+  padding: 3px 10px;
+  border-radius: 20px;
+  outline: none;
+  margin-bottom: 20px;
+  font-size: 12px;
+  font-weight: bold;
+  box-shadow: 0 0 10px black;
+}
+
+.btn_login button {
+  margin: 10px;
+  border: 2px solid #65ace5;
+  border-radius: 20px;
+  background-color: #65ace5;
+  color: white;
+  padding: 1px 30px;
+  font-size: 12px;
+  font-weight: bold;
+  outline: none;
+  cursor: pointer;
+  box-shadow: 0 0 10px black;
+}
+
+.name_in_chat {
+}
+
+.chat_views {
+  width: 60%;
+  margin: 10px auto;
+  margin-bottom: 70px;
+  text-align: center;
+}
+
+.chat_views span {
+  color: #65ace5;
+  font-size: 12px;
+  font-weight: bold;
+  border-radius: 20px;
+  padding: 3px 35px;
+  /* background-color: #e6e6e6; */
+  color: #65ace5;
+  /* box-shadow: 0 0 5px grey; */
+}
+
+.chat_views p {
+  width: 70%;
+  margin: 0 auto;
+  font-size: 13px;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin-bottom: 20px;
+}
+
+.chat_views img {
+  background-position: center;
+  background-size: cover;
+  border-radius: 5px;
+  max-width: 100%;
+  height: auto;
+}
+
+
+.add_comment {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  background-color: white;
+}
+
+.add_comment .input_text_comment {
+  width: 400px;
+  border: 2px solid #65ace5;
+  border-radius: 20px;
+  outline: none;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 5px 10px;
+  box-shadow: 0 0 20px grey;
+}
+
+.add_comment .btn_add_comment {
+  margin-left: 10px;
+  background-color: #65ace5;
+  color: white;
+  border: 2px solid #65ace5;
+  padding: 3px 20px;
+  border-radius: 20px;
+  font-size: 10px;
+  font-weight: bold;
+  box-shadow: 0 0 20px grey;
+  cursor: pointer;
+  text-transform: uppercase;
+  outline: none;
+}
+
+.add_comment .btn_add_file {
+  border: none;
+  background-color: white;
+  margin-left: 10px;
+  font-size: 10px;
+  font-weight: bold;
+  outline: none;
+  cursor: pointer;
+}
+
+
+@media (max-width: 545px) {
+  .add_comment .input_text_comment {
+    width: 200px;
+  }
+
+}
